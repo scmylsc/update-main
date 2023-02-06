@@ -85,6 +85,7 @@ text-align:center;
 
 }       
 .navid{
+    position:fixed;
     display:none;
     width:70%;
     height:100vh;
@@ -92,6 +93,7 @@ text-align:center;
     background:white;
     margin-top:51px;
     text-align:center;
+    margin-left:40%;
 }
 
 .main-content{
@@ -272,4 +274,123 @@ text-align:center;
     margin-top:5px;
     border-radius:5px;
 
+}
+.main_img{
+    z-index:2;
+    width:100%;
+    height:10vh;
+    text-align:center;
+
+}
+.sub_main_img{
+    margin-top:70px;
+    background-image:url("../img/biriyani-main.jpg");
+    width:100%;
+    height:10vh;
+    float:left;
+}
+.sub_main_img button{
+    border:none;
+    border-radius:5px;
+    width:70%;
+    height:40px;
+    margin-top:30px;
+    font-size:15px;
+    border-radius:10px 0 10px 0;
+    background:#fab72b;
+    color:white;
+    font-weight:700;
+}
+.main_img1{
+    display:flex;
+    float:left;
+    margin-top:20px;
+    text-align:center;
+    color:black;
+    font-weight:600;
+    font-family:monospace;
+
+}
+.main_img1 div{
+    padding:20px;
+    width:20%;
+    height:12vh;
+    margin-left:20px;
+    text-align:center;
+}
+.main_img1{
+
+    float:left;
+}
+.main_img1 label{
+    font-size:15px;
+    font-weight:600;
+    font-family:serif;
+}
+.place_deliver_cake{
+    text-align:center;
+    float:left;
+    margin-top:30px;
+    margin-left:20%;
+    border-bottom:1px solid;
+    padding-bottom:5px;
+
+}
+.place_deliver_cake label{
+    font-size:20px;
+    font-weight:600;
+    font-family:serif;
+}
+.main_img2{
+    padding:20px;
+    display:flex;
+    float:left;
+    margin-left:30px;
+}
+.bottom_text{
+    text-align:center;
+}
+.bottom_text1 input{
+    text-align:center;
+    width:80%;
+    height:30px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,20%);
+    border-radius:5px;
+    color:red;
+    border:transparent;
+    outline:none;
+}
+.bottom_text1 span{
+    position: relative;
+    float:right;
+    margin-right:48vh;
+    margin-top:-32px;
+    border-radius:5px 0 0 5px ;
+    color:red;
+    background:#fab72b;
+    width:32px;
+    height:32px;
+    line-height:30px;
+    font-size:20px;
+    color:white;
+}
+
+.bottom_text1 button{
+    float:left;
+    margin-left:25%;
+    margin-top:20px;
+    width:50%;
+    height:30px;
+    border-radius:5px;
+    background:linear-gradient(to left, rgba(64,230,255,1) 0%, rgba(33,105,164,1) 100%) !important;
+    color:white;
+    border:transparent;
+    font-weight:600;
+}
+.copyright-strike{
+    width:100%;
+    height:50px;
+    float:left;
+    text-align:center;
+    margin-top:40px;
 }
