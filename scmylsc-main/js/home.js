@@ -34,3 +34,8 @@ function test(){
     const scrollingElement = (document.scrollingElement || document.body);
     scrollingElement.scrollTop = scrollingElement.scrollHeight;
 }
+function navigate(){
+    document.getElementById("cake_img");
+    window.location.href = 'main_html/sub_cakes.html';
+
+}
