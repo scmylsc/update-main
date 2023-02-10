@@ -1,0 +1,106 @@
+*{
+    padding:5px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+body{
+   
+}
+.order_label{
+    font-family: monospace;
+    float:left;
+    margin-left:-20px;
+    width:60%;
+    height:20px;
+    margin-top:20px;
+
+}
+
+.order_input{
+    float:right;
+    width:60%;
+    border:10px;
+    border-radius:10px;
+    background:linear-gradient(to right, rgba(64,230,255,1) 0%, rgba(33,105,164,1) 100%) ;
+    margin-top:-30px;
+    height:30px;
+    color:white;
+    text-align:center;
+    font-weight:700;
+    line-height:20px;
+}
+.order_input:active,.order_input:hover{
+    background:linear-gradient(to right, rgba(33,105,164,1) 0%, rgba(64,230,255,1) 100%);
+}
+
+
+
+.amount_input{
+    float:right;
+    width:60%;
+    border:10px;
+    border-radius:10px;
+    background:linear-gradient(to right, rgba(64,230,255,1) 0%, rgba(33,105,164,1) 100%) ;
+    margin-top:10px;
+    height:30px;
+    color:white;
+    text-align:center;
+    font-weight:700;
+}
+.amount_input:active,.amount_input:hover{
+    background:linear-gradient(to right, rgba(33,105,164,1) 0%, rgba(64,230,255,1) 100%);
+}
+
+#amounticon{
+    float:right;
+    margin-right:48%;
+    margin-top:-30px;
+    color:white;
+    width:20px;
+    height:20px;
+    border-radius: 10px 0 0 10px;
+    color:white;
+    line-height:20px;
+}
+
+
+.amount_input:active,.order_input:hover{
+    background:linear-gradient(to right, rgba(33,105,164,1) 0%, rgba(64,230,255,1) 100%);
+}
+
+.amount_label{
+    font-family:monospace;
+    float:left;
+    margin-top:10px;
+    margin-left:-20px;
+}
+
+.amount_label:active,.amount_label:hover{
+    border-bottom:1px solid black;
+   
+}
+
+.button_main{
+    text-align:center;
+}
+.button_sub{
+    text-align:center;
+}
+.button_sub button{
+    color:red;
+    float:left;
+    border:none;
+    color:black;
+    border-radius:5px;
+    width:90%;
+    margin-top:30px;
+    margin-left:5%;
+    font-size:11px;
+    background:#fab72b;
+    color:white;
+    font-weight:900;
+    border-radius:10px 0 10px 0;
+
+
+}
